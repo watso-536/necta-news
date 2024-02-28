@@ -1,14 +1,14 @@
 import Image from 'next/image'
 import styles from '../page.module.css'
-import Header from '../components/header'
+import Header from './header'
 import SubHeader from '../subheader'
-import Datas from '../components/data'
+import Datas from './data'
 
 import '@nextcss/reset';
 import { Metadata } from 'next'
-import Loading from './loading'
+import Loading from '../loading'
 import { Suspense } from 'react'
-import MobileFooter from '../components/mobileooter'
+import MobileFooter from './mobileooter'
 export const metadata: Metadata = {
   title:'Necta | Home Page',
   description:"The Home Page",

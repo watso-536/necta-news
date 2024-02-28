@@ -1,4 +1,4 @@
-import Home from "./home/page"
+import Home from "./components/homeC"
 import { Metadata } from "next"
 
 
