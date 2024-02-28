@@ -8,7 +8,6 @@ import client from "@/schemas/client"
 import { format } from "date-fns"
 import Link from "next/link"
 import MenuButton from "./burgerMenu"
-import searchTool from "./searchbar"
 import SearchTool from "./searchbar"
 
 export default function Header(){
