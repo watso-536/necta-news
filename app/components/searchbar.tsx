@@ -6,7 +6,7 @@ import React, { useState } from 'react'
 
 
 import { MagnifyingGlassIcon } from '@heroicons/react/16/solid'
-export default function SearchTool({getSearchResults}){
+export default function SearchTool({}){
 
     const [query, setQuery] = useState('')
    
@@ -15,8 +15,6 @@ export default function SearchTool({getSearchResults}){
 
        const response = await fetch(`/api/searcher/search?query=${query}`)
        const reslt = await response.json()
-
-       getSearchResults(reslt)
     }
 
 

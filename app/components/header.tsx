@@ -43,7 +43,7 @@ export default function Header(){
              <MenuButton/>
            </div>
             <div className={styles.searchGroup}> 
-            <SearchTool getSearchResults={(results)=>setQuery(results)}/>
+            <SearchTool/>
             </div>
         </div>
     )
