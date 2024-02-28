@@ -1,4 +1,4 @@
-import Home from "../../necta-news/app/home/page"
+import Home from "./home/page"
 import { Metadata } from "next"
 
 
